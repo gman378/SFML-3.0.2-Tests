@@ -57,7 +57,7 @@ int main() {
 
     Vida -= 10;
 
-    //Teste para brincar com a vida do boneco.
+    //Teste para brincar com a vida do boneco..
 
   }
 

@@ -66,6 +66,7 @@ int main() {
  Vida += 10;
 
 
+    //Teste para brincar com a vida do boneco, usando o mouse para aumentar/diminuir a vida do boneco.
   }
   
 

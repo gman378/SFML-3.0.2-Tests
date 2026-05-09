@@ -79,6 +79,8 @@ int main() {
 
  Boneco.setFillColor(sf::Color::Blue);
 
+//Quando o espaço for clicado, o boneco muda de cor
+
 
   }
   

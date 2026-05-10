@@ -23,6 +23,8 @@ int main()
                 window.close();
         }
 
+        //Aqui esta como o player se movimenta no cenario
+
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
         {
             Player.move({1, 0});

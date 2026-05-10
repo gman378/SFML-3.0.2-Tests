@@ -3,7 +3,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode({1920, 1080}), "Teste de Sprite");
+    sf::RenderWindow window(sf::VideoMode({1920, 1080}), "Teste de Colisao");
     
     sf::RectangleShape Player;
     Player.setFillColor (sf::Color::Green);

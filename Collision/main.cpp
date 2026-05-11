@@ -23,11 +23,13 @@ int main()
                 window.close();
         }
 
-        //Aqui esta como o player se movimenta no cenario
+        //Aqui esta como o player se movimenta no cenario.
 
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
         {
             Player.move({1, 0});
+
+            //O programa verifica se a tecla foi digitada, caso seja, o player se movimenta.
         }
          if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
         {

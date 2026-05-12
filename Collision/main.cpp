@@ -48,6 +48,9 @@ int main()
         if(Player.getGlobalBounds().findIntersection(Wall.getGlobalBounds()))
         {
            Player.setFillColor(sf::Color::Blue);
+
+
+            //Aqui o programa verifica se o player encosta na "parede". Caso encoste, a cor do player muda para azul.
         }
         else
         {

@@ -55,6 +55,9 @@ int main()
         else
         {
             Player.setFillColor(sf::Color::Green);
+
+           //Aqui o programa verifica se o player encosta na "parede". Caso ele nao encoste, a cor padrao dele continua.
+            
         }
 
         window.clear();

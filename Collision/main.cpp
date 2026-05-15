@@ -29,7 +29,7 @@ int main()
         {
             Player.move({1, 0});
 
-            //O programa verifica se a tecla foi digitada, caso seja, o player se movimenta.
+            //Aqui nas últimas 3 linhas o programa verifica se a tecla foi digitada, caso seja, o player se movimenta.
         }
          if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
         {

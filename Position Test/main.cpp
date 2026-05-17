@@ -42,6 +42,4 @@ int main()
         window.draw(Object);
         window.display();
     }
-
-    return EXIT_SUCCESS;
 }

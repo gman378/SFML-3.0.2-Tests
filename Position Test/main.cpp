@@ -9,7 +9,7 @@ int main()
     sf::RectangleShape Object;
 
     Object.setFillColor(sf::Color::Blue); //Aqui eu defino a cor do bloquinho.
-    Object.setSize({100.f, 100.f});
+    Object.setSize({100.f, 100.f}); //Aqi eu defino o tamanho do bloquinho.
 
     float x = static_cast<float> (std::experimental::randint(10, (int) (window.getSize().x - Object.getSize().x)));
 

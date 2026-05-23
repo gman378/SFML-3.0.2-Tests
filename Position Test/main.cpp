@@ -32,10 +32,11 @@ int main()
             
         }
 
-       // if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
-        //{
-       //     Object.setPosition({x, 10.f});
-       // }
+       if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Right) && Object.getGlobalBounds().contains(static_cast<sf::Vector2f>(sf::Mouse::getPosition(window))))
+        {
+            float x = static_cast<float> (std::experimental::randint(10, (int) (window.getSize().x - Object.getSize().x)));
+            Object.setPosition({x, 10.f});
+        }
         
 
         window.clear();

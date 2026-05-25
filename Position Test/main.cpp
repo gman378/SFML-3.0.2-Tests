@@ -13,7 +13,7 @@ int main()
 
     float x = static_cast<float> (std::experimental::randint(10, (int) (window.getSize().x - Object.getSize().x))); //Aqui aonde eh definido o movimento do bloquinho, com o uso da biblioteca "experimental" eu consigo fazer o movimento dele ser aleatorio.
 
-    Object.setPosition({ x, 10.f});
+    Object.setPosition({ x, 10.f}); //Aqui aonde defino o spawn do bloquinho.
 
     while (window.isOpen())
     {

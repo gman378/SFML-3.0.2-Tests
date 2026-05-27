@@ -23,7 +23,7 @@ int main()
                 window.close();
         }
 
-        Object.move({0.0f, 0.04f});
+        Object.move({0.0f, 0.04f}); //Aqui o bloquinho se movimenta para baixo.
 
         if(Object.getPosition().y > 1080.f)
         {

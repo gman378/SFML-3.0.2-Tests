@@ -35,7 +35,7 @@ int main()
        if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Right) && Object.getGlobalBounds().contains(static_cast<sf::Vector2f>(sf::Mouse::getPosition(window)))) //Codigo atualizado
         {
             float x = static_cast<float> (std::experimental::randint(10, (int) (window.getSize().x - Object.getSize().x)));
-            Object.setPosition({x, 10.f});
+            Object.setPosition({x, 10.f}); //Bloquinho volta ao lugar original
         }
         
 

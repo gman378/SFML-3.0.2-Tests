@@ -25,10 +25,10 @@ int main()
 
         Object.move({0.0f, 0.04f}); //Aqui o bloquinho se movimenta para baixo.
 
-        if(Object.getPosition().y > 1080.f)
+        if(Object.getPosition().y > 1080.f) 
         {
              float x = static_cast<float> (std::experimental::randint(10, (int) (window.getSize().x - Object.getSize().x))); //Quando o bloquinho sair da tela, ele reinicia e volta para um novo lugar. indo para um loop.
-            Object.setPosition({x, 10.f}); 
+            Object.setPosition({x, 10.f}); //Aqui o bloquinho volta ao lugar original
             
         }
 

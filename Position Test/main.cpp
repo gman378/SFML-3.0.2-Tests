@@ -40,7 +40,7 @@ int main()
         
 
         window.clear();
-        window.draw(Object);
+        window.draw(Object); //Aqui o programa reconhece o bloquinho e exibe na tela
         window.display();
     }
 }

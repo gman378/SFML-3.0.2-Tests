@@ -37,6 +37,8 @@ int main()
             float x = static_cast<float> (std::experimental::randint(10, (int) (window.getSize().x - Object.getSize().x)));
             Object.setPosition({x, 10.f}); //Bloquinho volta ao lugar original
         }
+
+        //PARA EDITAR.
         
 
         window.clear();

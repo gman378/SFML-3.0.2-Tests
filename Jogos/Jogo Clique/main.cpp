@@ -17,7 +17,7 @@ int main()
     Object.setPosition({ x, 10.f});
 
     sf::Vector2i pos_mouse_win;
-    sf::Vector2f pos_mouse_coord;
+    sf::Vector2f pos_mouse_coord; //Aqui o aplicativo coordena a posiçao do mouse.
 
     while (window.isOpen())
     {
